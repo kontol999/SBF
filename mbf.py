@@ -135,7 +135,7 @@ def yayanxd():
 		print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N)
 		time.sleep(2)
 		raw_input(' %s*%s tekan enter '%(O,N))
-		os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+		os.system('xdg-open https://www.facebook.com/syafik.rupat.3')
 		kontol()
 	except KeyError:
 		print '\n\n %s[%s!%s] token invalid'%(N,M,N)
