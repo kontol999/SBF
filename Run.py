@@ -277,10 +277,6 @@ def menu():
         negara = "Indonesia"
     elif "bd" in ngr:
         negara = "Bangladesh/India"
-    elif "pk" in ngr:
-        negara = "Pakistan"
-    elif "us" in ngr:
-        negara = "USA"
     os.system("clear")
     banner()
     print((k+"\n[ "+p+"Welcome "+a["name"]+k+" ]"+p))
@@ -607,25 +603,14 @@ def generate(text):
 		else:
 			i=i.lower()
 			if len(i)==3 or len(i)==4 or len(i)==5:
-				results.append(i+"123")
 				results.append(i+"12345")
 			else:
-				results.append(i+"123")
 				results.append(i+"12345")
 				results.append(i)
 				if "id" in ct:
 					results.append("sayang")
 				elif "bd" in ct:
 					results.append("786786")
-				elif "pk" in ct:
-					results.append("pakistan")
-					results.append("786786")
-					results.append("000786")
-				elif "us" in ct:
-					results.append("123456")
-					results.append("qwerty")
-					results.append("iloveyou")
-					results.append("passwords")
 	return results
 
 ### USER AGENT ###
