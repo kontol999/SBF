@@ -115,9 +115,7 @@ def country():
     banner()
     print("\n%s[%s Choose Country %s]\n"%(k,p,k))
     print("%s[%s1%s] %sIndonesia"%(k,p,k,p))
-    print("%s[%s2%s] %sBangladesh/India"%(k,p,k,p))
-    print("%s[%s3%s] %sPakistan"%(k,p,k,p))
-    print("%s[%s4%s] %sUSA"%(k,p,k,p))
+    print("%s[%s2%s] %sBangladesh/India"%(k,p,k,p)
     choose_country()
     
 def choose_country():
